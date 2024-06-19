@@ -18,7 +18,7 @@ export const activityRecucer = (
 ) => {
   if(action.type === 'save-activity') {
     //Este codigo maneja la logica del state
-    console.log('Desde el type de save-Activity')
+    console.log(action.payload.newActivity)
   }
-
+  return {...state, activities : [...state.activities, action.payload.newActivity]}
 }
