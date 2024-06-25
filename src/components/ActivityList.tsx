@@ -33,7 +33,6 @@ function ActivityLIst({ activities }: ActivityListProps) {
           </div>
           <div className='flex gap-5 items-center'>
             <button><PencilSquareIcon className='h-8 w-8 text-gray-800'/></button>
-            <button>Eliminar</button>
           </div>
         </div>
       ))}
