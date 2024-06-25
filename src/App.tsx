@@ -1,9 +1,11 @@
 import { useReducer } from 'react'
 import Form from './components/Form'
 import { activityRecucer, initialState } from './reducers/activity-reducer'
+import ActivityLIst from './components/ActivityList'
 
 function App() {
   const [state, dispatch] = useReducer(activityRecucer, initialState)
+
   return (
     <>
       <header className="bg-lime-600 py-3">
@@ -17,6 +19,9 @@ function App() {
         <div className="max-w-4xl mx-auto">
           <Form dispatch={dispatch} />
         </div>
+      </section>
+      <section className='p-10 mx-auto max-w-4xl'>
+        <ActivityLIst activities={state.activities}/>
       </section>
     </>
   )
