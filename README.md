@@ -1,3 +1,5 @@
+Link del deploy : https://6683f9faab199f5227bd1f1a--flourishing-bonbon-330746.netlify.app/
+
 # Contador de Calorias
 
 Este es un proyecto de Contador de Calorías construido con React, TypeScript, Vite, Tailwind CSS y Hooks. Esta aplicación permite a los usuarios rastrear su consumo diario de calorías de manera fácil y eficiente.
